@@ -21,7 +21,7 @@ public class Team implements Serializable{
     private String estadio;
     private String conferencia;
     private String divisao;
-    private String titulosSuperbowl;
+    private Integer titulosSuperbowl;
 
     public Team() {
     }
@@ -68,10 +68,10 @@ public class Team implements Serializable{
     public void setDivisao(String divisao) {
         this.divisao = divisao;
     }
-    public String getTitulosSuperbowl() {
+    public Integer getTitulosSuperbowl() {
         return titulosSuperbowl;
     }
-    public void setTitulosSuperbowl(String titulosSuperbowl) {
+    public void setTitulosSuperbowl(Integer titulosSuperbowl) {
         this.titulosSuperbowl = titulosSuperbowl;
     }
 
